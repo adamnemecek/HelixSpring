@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E938A3C1A61FE2000F01EB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E938A3B1A61FE2000F01EB3 /* AppDelegate.swift */; };
+		2E938A3F1A61FE2000F01EB3 /* Helix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E938A3D1A61FE2000F01EB3 /* Helix.xcdatamodeld */; };
+		2E938A411A61FE2000F01EB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E938A401A61FE2000F01EB3 /* ViewController.swift */; };
+		2E938A441A61FE2000F01EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E938A421A61FE2000F01EB3 /* Main.storyboard */; };
+		2E938A461A61FE2000F01EB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E938A451A61FE2000F01EB3 /* Images.xcassets */; };
+		2E938A491A61FE2000F01EB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E938A471A61FE2000F01EB3 /* LaunchScreen.xib */; };
+		2E938A551A61FE2100F01EB3 /* HelixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E938A541A61FE2100F01EB3 /* HelixTests.swift */; };
+		2EE178171A66A6BE00F577CC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE178161A66A6BE00F577CC /* Helpers.swift */; };
+		2EE1781A1A66A73B00F577CC /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE178191A66A73B00F577CC /* Vector3.swift */; };
+		2EF14C4F1A71461E000DB3DD /* HelixVertexArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF14C4E1A71461E000DB3DD /* HelixVertexArray.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E938A4F1A61FE2100F01EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E938A2E1A61FE2000F01EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E938A351A61FE2000F01EB3;
+			remoteInfo = Helix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E938A361A61FE2000F01EB3 /* Helix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E938A3A1A61FE2000F01EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E938A3B1A61FE2000F01EB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E938A3E1A61FE2000F01EB3 /* Helix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Helix.xcdatamodel; sourceTree = "<group>"; };
+		2E938A401A61FE2000F01EB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E938A431A61FE2000F01EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E938A451A61FE2000F01EB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E938A481A61FE2000F01EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2E938A4E1A61FE2100F01EB3 /* HelixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E938A531A61FE2100F01EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E938A541A61FE2100F01EB3 /* HelixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelixTests.swift; sourceTree = "<group>"; };
+		2EE178161A66A6BE00F577CC /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		2EE178191A66A73B00F577CC /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		2EF14C4E1A71461E000DB3DD /* HelixVertexArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelixVertexArray.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E938A331A61FE2000F01EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E938A4B1A61FE2100F01EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E938A2D1A61FE2000F01EB3 = {
+			isa = PBXGroup;
+			children = (
+				2E938A381A61FE2000F01EB3 /* Helix */,
+				2E938A511A61FE2100F01EB3 /* HelixTests */,
+				2E938A371A61FE2000F01EB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E938A371A61FE2000F01EB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E938A361A61FE2000F01EB3 /* Helix.app */,
+				2E938A4E1A61FE2100F01EB3 /* HelixTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E938A381A61FE2000F01EB3 /* Helix */ = {
+			isa = PBXGroup;
+			children = (
+				2E938A601A61FE3C00F01EB3 /* Models */,
+				2E938A5F1A61FE3700F01EB3 /* Views */,
+				2E938A5E1A61FE3100F01EB3 /* Controllers */,
+				2E938A391A61FE2000F01EB3 /* Supporting Files */,
+			);
+			path = Helix;
+			sourceTree = "<group>";
+		};
+		2E938A391A61FE2000F01EB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E938A451A61FE2000F01EB3 /* Images.xcassets */,
+				2E938A3B1A61FE2000F01EB3 /* AppDelegate.swift */,
+				2E938A3A1A61FE2000F01EB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E938A511A61FE2100F01EB3 /* HelixTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E938A541A61FE2100F01EB3 /* HelixTests.swift */,
+				2E938A521A61FE2100F01EB3 /* Supporting Files */,
+			);
+			path = HelixTests;
+			sourceTree = "<group>";
+		};
+		2E938A521A61FE2100F01EB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E938A531A61FE2100F01EB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E938A5E1A61FE3100F01EB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E938A401A61FE2000F01EB3 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2E938A5F1A61FE3700F01EB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E938A421A61FE2000F01EB3 /* Main.storyboard */,
+				2E938A471A61FE2000F01EB3 /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2E938A601A61FE3C00F01EB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EE178151A66A6B200F577CC /* Geometry */,
+				2E938A3D1A61FE2000F01EB3 /* Helix.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2EE178151A66A6B200F577CC /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				2EE178181A66A70100F577CC /* Atoms */,
+				2EE178161A66A6BE00F577CC /* Helpers.swift */,
+				2EF14C4E1A71461E000DB3DD /* HelixVertexArray.swift */,
+			);
+			name = Geometry;
+			sourceTree = "<group>";
+		};
+		2EE178181A66A70100F577CC /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				2EE178191A66A73B00F577CC /* Vector3.swift */,
+			);
+			name = Atoms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E938A351A61FE2000F01EB3 /* Helix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E938A581A61FE2100F01EB3 /* Build configuration list for PBXNativeTarget "Helix" */;
+			buildPhases = (
+				2E938A321A61FE2000F01EB3 /* Sources */,
+				2E938A331A61FE2000F01EB3 /* Frameworks */,
+				2E938A341A61FE2000F01EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Helix;
+			productName = Helix;
+			productReference = 2E938A361A61FE2000F01EB3 /* Helix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E938A4D1A61FE2100F01EB3 /* HelixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E938A5B1A61FE2100F01EB3 /* Build configuration list for PBXNativeTarget "HelixTests" */;
+			buildPhases = (
+				2E938A4A1A61FE2100F01EB3 /* Sources */,
+				2E938A4B1A61FE2100F01EB3 /* Frameworks */,
+				2E938A4C1A61FE2100F01EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E938A501A61FE2100F01EB3 /* PBXTargetDependency */,
+			);
+			name = HelixTests;
+			productName = HelixTests;
+			productReference = 2E938A4E1A61FE2100F01EB3 /* HelixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E938A2E1A61FE2000F01EB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Morgan Wilde";
+				TargetAttributes = {
+					2E938A351A61FE2000F01EB3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2E938A4D1A61FE2100F01EB3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2E938A351A61FE2000F01EB3;
+					};
+				};
+			};
+			buildConfigurationList = 2E938A311A61FE2000F01EB3 /* Build configuration list for PBXProject "Helix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E938A2D1A61FE2000F01EB3;
+			productRefGroup = 2E938A371A61FE2000F01EB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E938A351A61FE2000F01EB3 /* Helix */,
+				2E938A4D1A61FE2100F01EB3 /* HelixTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E938A341A61FE2000F01EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E938A441A61FE2000F01EB3 /* Main.storyboard in Resources */,
+				2E938A491A61FE2000F01EB3 /* LaunchScreen.xib in Resources */,
+				2E938A461A61FE2000F01EB3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E938A4C1A61FE2100F01EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E938A321A61FE2000F01EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E938A411A61FE2000F01EB3 /* ViewController.swift in Sources */,
+				2EF14C4F1A71461E000DB3DD /* HelixVertexArray.swift in Sources */,
+				2E938A3F1A61FE2000F01EB3 /* Helix.xcdatamodeld in Sources */,
+				2E938A3C1A61FE2000F01EB3 /* AppDelegate.swift in Sources */,
+				2EE1781A1A66A73B00F577CC /* Vector3.swift in Sources */,
+				2EE178171A66A6BE00F577CC /* Helpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E938A4A1A61FE2100F01EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E938A551A61FE2100F01EB3 /* HelixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E938A501A61FE2100F01EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E938A351A61FE2000F01EB3 /* Helix */;
+			targetProxy = 2E938A4F1A61FE2100F01EB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E938A421A61FE2000F01EB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E938A431A61FE2000F01EB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E938A471A61FE2000F01EB3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E938A481A61FE2000F01EB3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E938A561A61FE2100F01EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E938A571A61FE2100F01EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E938A591A61FE2100F01EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Helix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E938A5A1A61FE2100F01EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Helix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E938A5C1A61FE2100F01EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helix.app/Helix";
+			};
+			name = Debug;
+		};
+		2E938A5D1A61FE2100F01EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helix.app/Helix";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E938A311A61FE2000F01EB3 /* Build configuration list for PBXProject "Helix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E938A561A61FE2100F01EB3 /* Debug */,
+				2E938A571A61FE2100F01EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E938A581A61FE2100F01EB3 /* Build configuration list for PBXNativeTarget "Helix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E938A591A61FE2100F01EB3 /* Debug */,
+				2E938A5A1A61FE2100F01EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E938A5B1A61FE2100F01EB3 /* Build configuration list for PBXNativeTarget "HelixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E938A5C1A61FE2100F01EB3 /* Debug */,
+				2E938A5D1A61FE2100F01EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E938A3D1A61FE2000F01EB3 /* Helix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E938A3E1A61FE2000F01EB3 /* Helix.xcdatamodel */,
+			);
+			currentVersion = 2E938A3E1A61FE2000F01EB3 /* Helix.xcdatamodel */;
+			path = Helix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E938A2E1A61FE2000F01EB3 /* Project object */;
+}
